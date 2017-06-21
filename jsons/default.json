@@ -1,0 +1,102 @@
+{
+    "quantidade": 1000,
+    "cotacao": {
+        "uuid": "67d6185d-612e-4e58-92b2-d0c2390e2bb0",
+        "cotacaoTimeout": 10,
+        "dataHoraCriacao": 1498050055626,
+        "cotacao": 3.464238,
+        "maximoOperavel": 100000,
+        "minimoOperavel": 100,
+        "multiplicidade": 0.01000000000000000020816681711721685132943093776702880859375,
+        "regional": {
+            "id": 83
+        },
+        "produto": {
+            "id": 34,
+            "moeda": {
+                "id": 2,
+                "codigoIso": "USD",
+                "simbolo": "US$",
+                "nome": "Dólar",
+                "paises": null
+            },
+            "tipoProduto": {
+                "id": 2,
+                "nome": "Remessa"
+            },
+            "tipoCartao": null
+        }
+    },
+    "formaPagamento": {
+        "id": 4
+    },
+    "formaEntrega": null,
+    "cidade": {
+        "id": 4854,
+        "nome": "São Paulo",
+        "estado": "SP",
+        "idRegional": 14,
+        "formasEntrega": [
+            {
+                "id": 1,
+                "tipo": {
+                    "id": 0,
+                    "nome": "DELIVERY"
+                },
+                "ativo": true
+            },
+            {
+                "id": 2,
+                "tipo": {
+                    "id": 1,
+                    "nome": "RETIRADA_LOJA"
+                },
+                "ativo": true
+            }
+        ]
+    },
+    "pais": {
+        "id": 76,
+        "nome": "Estados Unidos",
+        "codigoIsoBacen": "US",
+        "produtosRemessa": [
+            {
+                "id": 34,
+                "moeda": {
+                    "id": 2,
+                    "codigoIso": "USD",
+                    "simbolo": "US$",
+                    "nome": "Dólar",
+                    "paises": null
+                },
+                "tipoProduto": {
+                    "id": 2,
+                    "nome": "Remessa"
+                },
+                "tipoCartao": null
+            }
+        ],
+        "disponivelRemessa": true,
+        "produtoPrincipal": {
+            "id": 34,
+            "moeda": {
+                "id": 2,
+                "codigoIso": "USD",
+                "simbolo": "US$",
+                "nome": "Dólar",
+                "paises": null
+            },
+            "tipoProduto": {
+                "id": 2,
+                "nome": "Remessa"
+            },
+            "tipoCartao": null
+        },
+        "continente": {
+            "id": 0,
+            "nome": "America"
+        }
+    },
+    "prazoDisponibilidadeRemessa": "1",
+    "prazoDisponibilidadeCartaoRecarga": "1"
+}
